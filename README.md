@@ -7,4 +7,4 @@ Features
 - Puts all of the above gathered information in txt files
 ``` TODO 
 Nuclei Scanning
-Javascript file enum ```
+Javascript file enum 
