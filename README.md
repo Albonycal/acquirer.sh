@@ -1,4 +1,4 @@
-*Features*
+/h1 *Features*
 -------------------------------------------------------------------
 
 
@@ -10,7 +10,10 @@
 - Resolves the gathered subdomains
 -  Crawls and gets ALL of the urls of the subdomains.
 - Puts all of the above gathered information in txt files
-``` TODO 
-Nuclei Scanning
-Javascript file enum 
 
+/h2 TODO
+--------------------------------------------------------------------
+- Javascript Enumeration 
+- Nuclei Templete based scanning 
+If you want to contribute to this project or give suggestions contact me on twitter
+ https://twitter.com/albonycal
