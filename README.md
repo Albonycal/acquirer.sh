@@ -15,6 +15,8 @@
 --------------------------------------------------------------------
 > Download the acquirer.sh using wget
 ` wget https://github.com/Albonycal/acquirer.sh/ `
+
+--------------------------------------------------------------------
 TODO
 --------------------------------------------------------------------
 - Javascript Enumeration 
@@ -24,4 +26,4 @@ If you want to contribute to this project or give suggestions contact me on twit
  https://twitter.com/albonycal
 
 
-*Note : This script is not fully ready ( beta ) *
+*Note : This script is not fully ready (beta)*
