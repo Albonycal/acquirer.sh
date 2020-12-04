@@ -5,6 +5,6 @@ Features
 - Resolves the gathered subdomains
 -  crawls and gets ALL of the urls of the subdomains.
 - Puts all of the above gathered information in txt files
-TODO -
+``` TODO 
 Nuclei Scanning
-Javascript file enum
+Javascript file enum ```
