@@ -1,15 +1,9 @@
-#sudo apt-get install figlet > /dev/null
-#if ! [ $(id -u) = 0 ]; then
-#	           echo "Run this script as Root "
-#		                 exit 1
-#fi
-#figlet "  acquirer . sh  "
-echo "         _                         _
-    __ _  ___ __ _ _   _(_)_ __ ___ _ __       ___| |__
-   / _` |/ __/ _` | | | | | '__/ _ \ '__|     / __| '_ \
-  | (_| | (_| (_| | |_| | | | |  __/ |     _  \__ \ | | |
-   \__,_|\___\__, |\__,_|_|_|  \___|_|    (_) |___/_| |_|
-                |_| "
+sudo -E apt-get install figlet > /dev/null
+if ! [ $(id -u) = 0 ]; then
+	           echo "Run this script as Root "
+		                 exit 1
+fi
+figlet "  acquirer . sh  "
 echo " By @albonycal
 "
 if [ -z "$1" ]
@@ -46,14 +40,14 @@ fi
  #sublist3r -d $1 -v -o domains.txt
  amass enum -passive -d $1 -src >> domains.txt
  #running assetfinder
- /home/albony/go/bin/assetfinder --subs-only $1 | tee -a domains.txt
+ $HOME/go/bin/assetfinder --subs-only $1 | tee -a domains.txt
  #removing duplicate entries
  sort -u domains.txt -o domains.txt
  #checking for alive domains
  echo "\n\n[+] Checking for alive domains..\n"
- cat domains.txt | /home/albony/go/bin/httprobe | tee -a alive.txt
- cat alive.txt | /home/albony/go/bin/hakrawler -plain  | tee -a xss_scan.txt
- cat xss_scan.txt | /home/albony/go/bin/kxss    | tee -a final_xss.txt
+ cat domains.txt | $HOME/go/bin/httprobe | tee -a alive.txt
+ cat alive.txt | $HOMEgo/bin/hakrawler -plain  | tee -a xss_scan.txt
+ cat xss_scan.txt | $HOME/go/bin/kxss    | tee -a final_xss.txt
  
 #Scanning Using httpx
 
