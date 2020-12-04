@@ -1,4 +1,4 @@
-/h1 *Features*
+ *Features*
 -------------------------------------------------------------------
 
 
@@ -11,9 +11,10 @@
 -  Crawls and gets ALL of the urls of the subdomains.
 - Puts all of the above gathered information in txt files
 
-/h2 TODO
+TODO
 --------------------------------------------------------------------
 - Javascript Enumeration 
 - Nuclei Templete based scanning 
+
 If you want to contribute to this project or give suggestions contact me on twitter
  https://twitter.com/albonycal
