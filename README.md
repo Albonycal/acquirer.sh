@@ -11,6 +11,10 @@
 -  Crawls and gets ALL of the urls of the subdomains.
 - Puts all of the above gathered information in txt files
 
+*Installation*
+--------------------------------------------------------------------
+> Download the acquirer.sh using wget
+` wget https://github.com/Albonycal/acquirer.sh/ `
 TODO
 --------------------------------------------------------------------
 - Javascript Enumeration 
@@ -18,3 +22,6 @@ TODO
 
 If you want to contribute to this project or give suggestions contact me on twitter
  https://twitter.com/albonycal
+
+
+*Note : This script is not fully ready ( beta ) *
