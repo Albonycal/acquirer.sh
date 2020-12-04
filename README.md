@@ -1,5 +1,5 @@
 Features
-[ acquirer.sh](https://i.ibb.co/3Bjgr4c/image.png)
+(https://i.ibb.co/3Bjgr4c/image.png)
 - Subdomain enumeration with multiple tools.
 - Sorts the gathered subdomains to remove duplicate subdomains.
 - Resolves the gathered subdomains
