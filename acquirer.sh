@@ -1,9 +1,15 @@
-sudo apt-get install figlet > /dev/null
-if ! [ $(id -u) = 0 ]; then
-	           echo "Run this script as Root "
-		                 exit 1
-fi
-figlet "  acquirer . sh  "
+#sudo apt-get install figlet > /dev/null
+#if ! [ $(id -u) = 0 ]; then
+#	           echo "Run this script as Root "
+#		                 exit 1
+#fi
+#figlet "  acquirer . sh  "
+echo "         _                         _
+    __ _  ___ __ _ _   _(_)_ __ ___ _ __       ___| |__
+   / _` |/ __/ _` | | | | | '__/ _ \ '__|     / __| '_ \
+  | (_| | (_| (_| | |_| | | | |  __/ |     _  \__ \ | | |
+   \__,_|\___\__, |\__,_|_|_|  \___|_|    (_) |___/_| |_|
+                |_| "
 echo " By @albonycal
 "
 if [ -z "$1" ]
