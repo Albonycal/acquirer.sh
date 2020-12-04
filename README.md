@@ -16,6 +16,7 @@
 > Download the acquirer.sh using wget
 ` wget https://github.com/Albonycal/acquirer.sh/ `
 
+
 --------------------------------------------------------------------
 TODO
 --------------------------------------------------------------------
