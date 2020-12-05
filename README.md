@@ -13,8 +13,18 @@
 
 *Installation*
 --------------------------------------------------------------------
-> Download the acquirer.sh using wget
-` wget https://github.com/Albonycal/acquirer.sh/ `
+> Download the acquirer.sh using git 
+` git clone https://github.com/Albonycal/acquirer.sh/ `
+
+- If you want to see the banner install figlet 
+
+
+` sudo apt-get install figlet ` or pacman or yum whatever
+
+
+` cd acquirer.sh `
+
+` ./acquirer.sh `
 
 
 --------------------------------------------------------------------
@@ -22,7 +32,7 @@ TODO
 --------------------------------------------------------------------
 - Javascript Enumeration 
 - Nuclei Templete based scanning 
-- WebScrenshots 
+- WebScreenshots 
 
 If you want to contribute to this project or give suggestions contact me on twitter
  https://twitter.com/albonycal
