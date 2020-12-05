@@ -1,8 +1,8 @@
-sudo -E apt-get install figlet > /dev/null
-if ! [ $(id -u) = 0 ]; then
-	           echo "Run this script as Root "
-		                 exit 1
-fi
+#sudo -E apt-get install figlet > /dev/null
+#if ! [ $(id -u) = 0 ]; then
+#	           echo "Run this script as Root "
+#		                 exit 1
+#fi
 figlet "  acquirer . sh  "
 echo " By @albonycal
 "
