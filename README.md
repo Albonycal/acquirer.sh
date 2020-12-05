@@ -22,6 +22,7 @@ TODO
 --------------------------------------------------------------------
 - Javascript Enumeration 
 - Nuclei Templete based scanning 
+- WebScrenshots 
 
 If you want to contribute to this project or give suggestions contact me on twitter
  https://twitter.com/albonycal
