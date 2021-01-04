@@ -10,6 +10,7 @@
 - Resolves the gathered subdomains
 -  Crawls and gets ALL of the urls of the subdomains.
 - Puts all of the above gathered information in txt files
+- New feature Discord Notications
 
 *Installation*
 --------------------------------------------------------------------
@@ -23,7 +24,7 @@
 
 
 ` cd acquirer.sh `
-
+NOtifications
 ` ./acquirer.sh `
 
 
@@ -33,6 +34,7 @@ TODO
 - Javascript Enumeration 
 - Nuclei Templete based scanning 
 - WebScreenshots 
+- Working on adding notion support using notion-py :):wq!
 
 If you want to contribute to this project or give suggestions contact me on twitter
  https://twitter.com/albonycal
