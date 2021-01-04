@@ -34,7 +34,7 @@ TODO
 - Javascript Enumeration 
 - Nuclei Templete based scanning 
 - WebScreenshots 
-- Working on adding notion support using notion-py :):wq!
+- Working on adding notion support using notion-py :)
 
 If you want to contribute to this project or give suggestions contact me on twitter
  https://twitter.com/albonycal
