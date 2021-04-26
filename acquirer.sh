@@ -23,14 +23,8 @@ mkdir -p $1
  
 #Scanning Using httpx
 #cat domains.txt | httpx -follow-redirects -silent | tee -a alive.txt
-#formatting the data to json
- #cat alive.txt | python -c "import sys; import json; print (json.dumps({'domains':list(sys.stdin)}))" > alive.json
- #cat domains.txt | python -c "import sys; import json; print (json.dumps({'domains':list(sys.stdin)}))" > domains.json
-
-
  mkdir -p $1
  cd $1
- #starting sublist3r
  #sublist3r -d $1 -v -o domains.txt
  amass enum -passive -o domain.txt -config ~/.config/amass/config.ini  -d $1 
  #running assetfinder
@@ -46,7 +40,7 @@ mkdir -p $1
  echo "[+] Checking for alive domains.." | notify
  cat domains.txt | httpx -follow-redirects -silent | tee -a alive.txt
  #NOTIFY_TO_DISCORD ALIVE
- cat alive.txt | notify
+# cat alive.txt | notify
  #cat domains.txt | $HOME/go/bin/httprobe | tee -a alive.txt
  #cat alive.txt | $HOME/go/bin/hakrawler -plain  | tee -a crawler.txt
  #cat crawler.txt | $HOME/go/bin/kxss    | tee -a xss.txt
