@@ -1,0 +1,14 @@
+/tomnomnom/assetfinder
+/tomnomnom/meg
+/tomnomnom/httprobe
+/tomnomnom/gron
+/tomnomnom/waybackurls
+/tomnomnom/anew
+/tomnomnom/gf
+/tomnomnom/hacks/unfurl
+/tomnomnom/hacks/fff
+/hakluke/hakrawler
+/ffuf/ffuf
+/tomnomnom/hacks/inscope
+/hakluke/haktrails
+/tomnomnom/hacks/html-tool
