@@ -26,4 +26,5 @@ go get -u -v github.com/hahwul/dalfox
 go get -u github.com/sw33tLie/bbscope
 #python3-pip
 #pip3 install name-that-hash
-
+# AUR 
+# yay -S kiterunner-bin
