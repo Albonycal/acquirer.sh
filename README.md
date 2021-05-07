@@ -10,7 +10,6 @@
 - Resolves the gathered subdomains
 -  Crawls and gets ALL of the urls of the subdomains.
 - Puts all of the above gathered information in txt files
-- New feature Discord Notications
 - Automatic Installation's of tools used by @albonycal
 
 
