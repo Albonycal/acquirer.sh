@@ -1,5 +1,4 @@
 # First install figlet using sudo apt-get install figlet 
-figlet "  acquirer . sh  "
 echo " By @albonycal
 "
 if [ -z "$1" ]
