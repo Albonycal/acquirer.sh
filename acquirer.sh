@@ -45,6 +45,6 @@ mkdir -p $1
  #cat crawler.txt | $HOME/go/bin/kxss    | tee -a xss.txt
  #Running Acquirer_Aquatone
  echo "[+] Generating Report.." | notify
- cat alive.txt | acquirer_aquatone -ports medium -silent -template-path ~/acquirer_aquatone/static/report_template.html 
+ cat alive.txt | aquatone -ports medium -silent  
 
 #cat domains.txt | httpx -follow-redirects -silent | tee -a alive.txt
