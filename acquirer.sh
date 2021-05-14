@@ -38,12 +38,6 @@ mkdir -p $1
  #checking for alive domains
  echo "[+] Checking for alive domains.." | notify
  cat domains.txt | httpx -follow-redirects -silent | tee -a alive.txt
- #NOTIFY_TO_DISCORD ALIVE
-# cat alive.txt | notify
- #cat domains.txt | $HOME/go/bin/httprobe | tee -a alive.txt
- #cat alive.txt | $HOME/go/bin/hakrawler -plain  | tee -a crawler.txt
- #cat crawler.txt | $HOME/go/bin/kxss    | tee -a xss.txt
- #Running Acquirer_Aquatone
  echo "[+] Generating Report.." | notify
  cat alive.txt | aquatone -ports medium -silent  
 
