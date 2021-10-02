@@ -1,5 +1,4 @@
-# First install figlet using sudo apt-get install figlet 
-echo " By @albonycal
+echo " By @albonycal | lolcat
 "
 if [ -z "$1" ]
 then
@@ -24,7 +23,6 @@ mkdir -p $1
 #cat domains.txt | httpx -follow-redirects -silent | tee -a alive.txt
  mkdir -p $1
  cd $1
- #sublist3r -d $1 -v -o domains.txt
  amass enum -passive -o domain.txt -config ~/.config/amass/config.ini  -d $1 
  #running assetfinder
  $HOME/go/bin/assetfinder --subs-only $1 | tee -a domain.txt
