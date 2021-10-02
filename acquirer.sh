@@ -1,5 +1,4 @@
-# First install figlet using sudo apt-get install figlet 
-echo " By @albonycal
+echo " By @albonycal | lolcat
 "
 if [ -z "$1" ]
 then
